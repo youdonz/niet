@@ -2,7 +2,7 @@ default: niet
 all: niet test/output_on_both test/ignore_term
 
 install: niet
-	install $^ /usr/local/bin
+	install $^ ${DESTDIR}/usr/bin
 
 niet: src/niet.o
 	cc -o $@ $^

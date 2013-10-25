@@ -1,0 +1,15 @@
+Source: niet
+Section: restricted
+Priority: extra
+Maintainer: Tim Goddard <pruby@unknown>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.2
+Homepage: http://www.youdo.co.nz
+#Vcs-Git: git://git.debian.org/collab-maint/niet.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/niet.git;a=summary
+
+Package: niet
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Niet process monitor
+ Niet monitors and restarts processes on crash.
